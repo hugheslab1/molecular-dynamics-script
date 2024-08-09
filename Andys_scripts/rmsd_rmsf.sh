@@ -4,6 +4,9 @@
 #SBATCH --time=99999:00:00
 #SBATCH --cpus-per-task=4
 
+##################################################################################################
+#Edit file paths bellow
+#################################################################################################
 amber_container_path="/scratch/av144592/container/amber22_tools23_cuda.sif"
 
 project_path="/projects/av144592"
