@@ -2,8 +2,6 @@
 #SBATCH --job-name="relax"
 #SBATCH --partition="gpu(all)"
 #SBATCH --time=99999:00:00
-#SBATCH --mail-user=andy.voss@umontana.edu
-#SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:rtx_2080:1 ##reserve 1 gpu
 
 # Minimization for explicit solvent with a protein ligand complex
